@@ -6,6 +6,7 @@ import EventCardOfWeddings from "../common/eventCards/weddings";
 import EventCardOfEngagements from "../common/eventCards/engagement";
 import EventCardOfEntertainment from "../common/eventCards/entertainment";
 import EventCardOfBirthDay from "../common/eventCards/birthday";
+import {Link} from "react-router-dom";
 
 class GeneralCars extends Component {
     render() {
@@ -44,10 +45,22 @@ class GeneralCars extends Component {
                     className="p-6 w-min"
                 >
                     <Grid container item justifyContent="center" gap={5}>
-                        <EventCardOfWeddings />
-                        <EventCardOfEngagements />
-                        <EventCardOfEntertainment />
-                        <EventCardOfBirthDay />
+                        <Link to="/weddingsPage">
+                            <EventCardOfWeddings />
+                        </Link>
+
+                        <Link to="/engagementsPage">
+                            <EventCardOfEngagements />
+                        </Link>
+
+                        <Link to="/entertainmentPage">
+                            <EventCardOfEntertainment />
+                        </Link>
+
+                        <Link to="/corporatePage">
+                            <EventCardOfBirthDay />
+                        </Link>
+
                     </Grid>
                     <Grid>
                         <CommonButton

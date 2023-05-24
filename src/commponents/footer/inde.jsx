@@ -103,14 +103,14 @@ class Footer extends Component {
                             >
                                 <ul className="flex justify-center gap-4 font-semibold">
                                     <Link to="/">
-                                        <li  >HOME</li>
+                                        <li  className="hover:cursor-pointer hover:shadow-lg hover:text-red-500 hover:scale-105">HOME</li>
                                     </Link>
-                                    <li>UPCOMING EVENTS</li>
+                                    <li className="hover:cursor-pointer hover:shadow-lg hover:text-red-500 hover:scale-105">UPCOMING EVENTS</li>
                                     <Link to="/about">
-                                        <li>ABOUT US</li>
+                                        <li className="hover:cursor-pointer hover:shadow-lg hover:text-red-500 hover:scale-105">ABOUT US</li>
                                     </Link>
                                     <Link to="/contact">
-                                        <li>CONTACT US</li>
+                                        <li className="hover:cursor-pointer hover:shadow-lg hover:text-red-500 hover:scale-105">CONTACT US</li>
                                     </Link>
 
                                 </ul>

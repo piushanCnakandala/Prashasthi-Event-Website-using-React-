@@ -16,7 +16,7 @@ class EventCardOfEngagements extends Component {
                 className="flex flex-col bg-stone-900 rounded-3xl order-blue-500 border hover:cursor-pointer hover:shadow-lg hover:shadow-red-500 hover:scale-105"
             >
                 <div
-                    className="rounded-t-3xl bg-event-engagements bg-cover"
+                    className="rounded-t-3xl bg-event-wedding bg-cover"
                     style={{ height: "400px" }}
                 ></div>
                 <div className="text-white flex flex-col justify-between">
@@ -28,7 +28,7 @@ class EventCardOfEngagements extends Component {
                             variant="h5"
                             className="font-bold break-words font-dosis"
                         >
-                            Engagements
+                            Wedding Events
                         </Typography>
                     </div>
                  {/*   <div

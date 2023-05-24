@@ -50,11 +50,12 @@ class HeroWithGrid extends Component {
                 <Grid
                     justifyContent="center"
                     alignItems="center">
+
                     <Typography
-                        variant={"h4"}
-                        className="text-white p-4 font select-none md:text-7xl "
-                        style={{ fontFamily: "Arial, sans-serif" }}
-                      > MAKING YOUR EVENT Beautiful
+                        variant={"h3"}
+                        className="text-white select-none md:text-6xl text-center "
+                      style={{ fontFamily: "Comic Sans MS" }}
+                      > MAKING YOUR EVENT BEAUTIFUL
                       {/*  <span className="text-yellow-500 font-Helvetica ">MAKING YOUR EVENT </span>
                         <br /> <span> Beautiful </span>*/}
                     </Typography>

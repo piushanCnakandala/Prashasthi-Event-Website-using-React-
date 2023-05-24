@@ -44,6 +44,8 @@ class LoginAdmin extends Component {
 
     render() {
         const {classes} = this.props;
+        const facebookProfileUrl = 'https://web.facebook.com/prashasthievents';
+        const instagramProfileUrl = 'https://web.facebook.com/prashasthievents';
         return (
             <Grid
                 container
@@ -125,8 +127,14 @@ class LoginAdmin extends Component {
                 </Grid>
 
                 <RemoveIcon fontSize="large" className="text-white"/>
-                <FacebookOutlinedIcon fontSize="large" className="text-white"/>
-                <InstagramIcon fontSize="large" className="text-white"/>
+
+                <a href={facebookProfileUrl} target="_blank" rel="noopener noreferrer" >
+                    <FacebookOutlinedIcon fontSize="large" className="text-white"/>
+                </a>
+
+                <a href={facebookProfileUrl} target="_blank" rel="noopener noreferrer" >
+                    <InstagramIcon fontSize="large" className="text-white"/>
+                </a>
                 <RemoveIcon fontSize="large" className="text-white"/>
 
             </Grid>

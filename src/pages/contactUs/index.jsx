@@ -4,7 +4,7 @@ import NavBar from "../../commponents/nav";
 import { Grid } from "@mui/material";
 import Footer from "../../commponents/footer/inde";
 import LoginAdmin from "../../commponents/contactUsHero";
-import AboutUsHeroWithGrid from "../../commponents/aboutUsHero";
+import AboutUsHeroWithGrid from "../../commponents/weddingsPageHero";
 
 
 class ContactUs extends Component {
