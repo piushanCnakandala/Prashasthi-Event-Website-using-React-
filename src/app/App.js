@@ -11,6 +11,7 @@ import EngagementsEventPage from "../pages/EngagementsPage";
 import UpComingEvents from "../pages/upcomingEvents";
 import ImgOfPoruCeremony from "../pages/imgOfPoruCeremonyPage";
 import ImgOfWeddinge from "../pages/imgOfWeddingPage";
+import VideoOfWedding from "../pages/videosOfweddingPage";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/upcomingEvents" element={<UpComingEvents/>}/>
           <Route path="/imgOfPoruCeremony" element={<ImgOfPoruCeremony/>}/>
           <Route path="/imgOfWedding" element={<ImgOfWeddinge/>}/>
+          <Route path="/videoOfWedding" element={<VideoOfWedding/>}/>
       </Routes>
   );
 }

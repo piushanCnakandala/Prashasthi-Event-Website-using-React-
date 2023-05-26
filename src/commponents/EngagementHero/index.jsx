@@ -54,7 +54,10 @@ class EngagementWithGrid extends Component {
                             <EngagementImg />
                         </Link>
 
-                        <EngagementVideo />
+                        <Link to="/videoOfWedding">
+                            <EngagementVideo />
+                        </Link>
+
                     </Grid>
 
                 </Grid>
